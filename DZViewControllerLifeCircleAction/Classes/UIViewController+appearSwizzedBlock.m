@@ -8,7 +8,23 @@
 
 #import "UIViewController+appearSwizzedBlock.h"
 #import <objc/runtime.h>
-#import <DZProgrameDefines.h>
+void __DZViewControllerLifeCircleSwizzInstance(Class class, SEL originalSelector, SEL swizzledSelector)
+{
+    Method originalMethod = class_getInstanceMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    
+    BOOL didAddMethod =
+    class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    
+    if (didAddMethod)
+    {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod),method_getTypeEncoding(originalMethod));
+    }
+    else
+    {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+}
 
 static void* DZViewAppearKey = &DZViewAppearKey;
 
@@ -161,10 +177,10 @@ void DZVCRemoveGlobalAction(DZViewControllerLifeCircleBaseAction* action) {
 + (void) load
 {
     Class viewControllerClass = [UIViewController class];
-    swizzInstance(viewControllerClass,@selector(viewDidAppear:),@selector(yh_action_swizzviewDidAppear:));
-    swizzInstance(viewControllerClass, @selector(viewDidDisappear:), @selector(yh_action_swizzViewDidDisappear:));
-    swizzInstance(viewControllerClass, @selector(viewWillAppear:), @selector(yh_action_swizzviewWillAppear:));
-    swizzInstance(viewControllerClass, @selector(viewWillDisappear:), @selector(yh_action_swizzViewWillDisappear:));
+    __DZViewControllerLifeCircleSwizzInstance(viewControllerClass,@selector(viewDidAppear:),@selector(yh_action_swizzviewDidAppear:));
+    __DZViewControllerLifeCircleSwizzInstance(viewControllerClass, @selector(viewDidDisappear:), @selector(yh_action_swizzViewDidDisappear:));
+    __DZViewControllerLifeCircleSwizzInstance(viewControllerClass, @selector(viewWillAppear:), @selector(yh_action_swizzviewWillAppear:));
+    __DZViewControllerLifeCircleSwizzInstance(viewControllerClass, @selector(viewWillDisappear:), @selector(yh_action_swizzViewWillDisappear:));
 }
 
 @end

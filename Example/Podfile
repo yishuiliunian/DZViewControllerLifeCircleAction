@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DZViewControllerLifeCircleAction_Example' do
+  pod 'DZViewControllerLifeCircleAction', :path => '../'
+
+  target 'DZViewControllerLifeCircleAction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

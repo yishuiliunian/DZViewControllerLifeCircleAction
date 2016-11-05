@@ -1,0 +1,16 @@
+PODS:
+  - DZViewControllerLifeCircleAction (0.1.0)
+
+DEPENDENCIES:
+  - DZViewControllerLifeCircleAction (from `../`)
+
+EXTERNAL SOURCES:
+  DZViewControllerLifeCircleAction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZViewControllerLifeCircleAction: 5ba58d04197572a82b6860797508ab10871e81c0
+
+PODFILE CHECKSUM: 10e97687272e9b71cadd316f94fc8ce0ede9ddd4
+
+COCOAPODS: 1.1.1
