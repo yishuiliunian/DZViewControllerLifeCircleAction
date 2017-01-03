@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DZViewControllerLifeCircleAction'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'DZViewControllerLifeCircleAction is an AOP toolkit for UIViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ DZViewControllerLifeCircleAction is an AOP toolkit for UIViewController. When yo
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DZViewControllerLifeCircleAction/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'DZViewControllerLifeCircleAction' => ['DZViewControllerLifeCircleAction/Assets/*.png']
   # }
