@@ -16,6 +16,7 @@
  */
 @interface DZViewControllerLifeCircleBaseAction : NSObject
 
+@property  (nonatomic, weak, readonly) UIViewController * liveViewController;
 
 /**
  every action have unique identifier. 1to1 replationship.
