@@ -272,7 +272,7 @@ FOUNDATION_EXTERN void DZVCRegisterGlobalAction(DZViewControllerLifeCircleBaseAc
 
 ### 执行一次的Action， 专用职责的例子
 
-在ViewController编程的时候，我们经常会写一些类似于_firstAppear这样的BOOL类型的变量，来标记这个VC是第一次被展示，然后做一些特定的动作。其实这个就是在VC所有的展示周期内只做一次的操作，真对这个需求我们可以写一个这样的Action：
+在ViewController编程的时候，我们经常会写一些类似于_firstAppear这样的BOOL类型的变量，来标记这个VC是第一次被展示，然后做一些特定的动作。其实这个就是在VC所有的展示周期内只做一次的操作，针对此需求我们可以写一个这样的Action：
 
 ~~~
 
