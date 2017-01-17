@@ -7,89 +7,284 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B01F34D569F1DD8D9740294B73DB821 /* DZVCOnceLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D86D9B2287BB45E56E371A52D2A1CEE5 /* DZVCOnceLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		265B546C035B926E8F76F30BA6A3503E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		01147752A574AB46A9A77DAC4B0F1600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		0210E8A79E84187E201DE61F24CECF25 /* DZURLRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C45B4248E4D6352FAD6708927E56D3C /* DZURLRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02423A72F9BB9D86FC51B4E8015ADCE7 /* DZURLWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE70F5DEC51BEE12F171A6FF584A66C /* DZURLWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07B3CCBD87BF42786DE265A5174DD518 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6CA420544F880FEF0F04F183B1DE84 /* NSString+URLEncode.m */; };
+		198900C40A0F68610091B2F2BF829CFB /* DZGeometryTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0619F5312BE180F5A7367EF728CEF2FA /* DZGeometryTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB3076EB295EA49E30CD3997769643F /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA79250D1D6054FB62A25E6B5D460EA /* DZGeometryTools-dummy.m */; };
+		1D2F8595010C3C7A14F69D2325AE1BFF /* DZActivityNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AE7AF8455B0093940BC3135F32D066 /* DZActivityNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7C10E8E6419A013921D69B4DDC51F0 /* NSString_UrlEncode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */; };
+		1FCBB5AE2EAD95A07A6BC415C92FAB7E /* DZUIStackLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7329F516E624B189DC49748DFFA0243A /* DZUIStackLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D2BC65EA275082D848990A3F58B5C0 /* DZURLRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8A9A18D0C2C82B2ABC8B7EB5E3DC2A /* DZURLRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23D817AF4A2BB9EEF17E80577664FE5D /* DZURLRouteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E110B0269E653C4816227ABF64CF7F /* DZURLRouteRecord.m */; };
+		265B546C035B926E8F76F30BA6A3503E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		269A757D4F39E8EC552340EBACDF0535 /* DZURLRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6973385CBE93783BA8D4A52E035C90 /* DZURLRouteResponse.m */; };
+		29E8A216EFD64319AB0DCD3060ECC42F /* DZRouteRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADB7B7A76305C5FC01EC83B08A1B98F /* DZRouteRequestContext.m */; };
+		2D490EBBA97E40EBF669538F2E072A7A /* DZURLRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DE57E3227D83C8B17714F1E692638E /* DZURLRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D573BD944FCCD3B4BD81531CFA6110B /* DZURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A96C08B5AD48A59F6893A95A5BEAF8 /* DZURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0D7AD7D26C42A882C765CDCF6EE1AD /* DZURLRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B086E217FDAA0F94776BB65C1CE01 /* DZURLRoute-dummy.m */; };
+		341501CAC12C324CFEBAE45719A55E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
 		35D08FA42A10E6C303E6E78EAC6FCF86 /* Pods-DZViewControllerLifeCircleAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B02039432D7BE5FD1F85DF7FA13AA1E5 /* Pods-DZViewControllerLifeCircleAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D6B4102B84C053182E4EA783E548AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5576F80776A74AABB5C34155388973F2 /* DZViewControllerLifeCircleAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A064CA63B4E993707DD0BD8BEE27B /* DZViewControllerLifeCircleAction-dummy.m */; };
-		65DB6152F83D7ED0551628F2F57EBCAF /* DZViewControllerLifeCircleAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F3CF1248F7566C1ACEE7F910D37CDB /* DZViewControllerLifeCircleAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A7E7D97DD90D0352B38DBF3523CAD6D /* DZVCOnceLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E859AC206CBCB12D49EBA844005CA2 /* DZVCOnceLifeCircleAction.m */; };
-		A30BCF895845231596063025188F19EF /* UIViewController+appearSwizzedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B398950C36F343292761221E0D4170B0 /* UIViewController+appearSwizzedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3941D6DC90D83D02F63C533DA8DB1556 /* UIView+YHAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43BFFC28AC1B58C96336078CE69FD1 /* UIView+YHAttachment.m */; };
+		3AB51253B762FB94DE094741C44CE988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		3C40CCA85C2D7438EAAD29F8F2CFB20A /* DZVCOnceLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D86D9B2287BB45E56E371A52D2A1CEE5 /* DZVCOnceLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC2CD29F963198D99F791B80E35BE66 /* UIViewController+ActivityNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D291E6CD151295555AA25D840DB32 /* UIViewController+ActivityNavigationBar.m */; };
+		408DF069F2F91B567ED16A35BB6632CB /* UIViewController+appearSwizzedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B398950C36F343292761221E0D4170B0 /* UIViewController+appearSwizzedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4747AEE6CB393B1A8CD8F03B2918B3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		4A819EF59574638532ADA65340C95DDE /* DZActivityBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3C487A5BE405BAA92029B9B3ACCF32 /* DZActivityBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD571F7D6C425E9C707D6B7AEB9439E /* DZURLRouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 177E53CBB75DACD8D86F313DC3D394CE /* DZURLRouteUtils.m */; };
+		5037F1B6D9954D96B580B37C73514773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		51B23A98065D1EB3B866945B0988E00D /* DZViewControllerLifeCircleAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */; };
+		54FBE270D6AE80B5E54E4FA96F23C0B3 /* DZURLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DB80E1F5FB7B85491FA5F5CF9A42B669 /* DZURLContext.m */; };
+		57A71749EF57D8A8B1FD7009AAEA2D76 /* UIViewController+appearSwizzedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B377BB53CD94EDC5AAD9C56DC8AB9F0B /* UIViewController+appearSwizzedBlock.m */; };
+		5BB229AD8992BE1F3DC3F47B3C1E5687 /* DZViewControllerLifeCircleAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F3CF1248F7566C1ACEE7F910D37CDB /* DZViewControllerLifeCircleAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DCF6AA79E8A5D689AED45E830F74CF5 /* DZURLRouteRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A380EA54B072C39B8F5AF5A3921303F6 /* DZURLRouteRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED24907E596366EBD1598C36FC76B7F /* DZRouteRequestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C0FDF1A701D7D2C922050BBA2E77A6 /* DZRouteRequestContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A7620DB92A89FEF30F6FDAD9E49434 /* DZURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A4791EBDDD377777874520674407 /* DZURLRoute.m */; };
+		67514588B12D9BBEB0A5C38362A25890 /* DZURLWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5687E9489FED9AC5687CB0E2AEA8DAA /* DZURLWeakProxy.m */; };
+		6A750069965FBCB9E06B9E3F73DB423F /* DZURLRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 383672BCF1D1F05ED0738317028B4DD9 /* DZURLRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACAA9B6AA96EDA74628F16900336AE0 /* UIViewController+ActivityNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6583F77C44B2F04B70502E4D0F47A3C5 /* UIViewController+ActivityNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5B316E7D8073C00A1C446CB4729689 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = A5518F136F6342676415187EC5AA7D46 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BD33957321BA14D740630A1A876251D /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DBC78D68F7A0D6E04DAF7667E03D8F /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FDF922188402C9553754664AA06E643 /* DZURLRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C38B49122EAAE88682B16DB7A6910839 /* DZURLRouteRequest.m */; };
+		82C8F91BD7D523A338618E2F2D546811 /* DZViewControllerLifeCircleBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C392DBAA45A4A18CC9FFD207AE0CAC17 /* DZViewControllerLifeCircleBaseAction.m */; };
+		87606E8A9BF58136E47EFBDB125F170E /* DZViewControllerLifeCircleAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A064CA63B4E993707DD0BD8BEE27B /* DZViewControllerLifeCircleAction-dummy.m */; };
+		8DBBA52B399E88FE25DF1E6C76908234 /* DZActivityNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E3834584C8219B5FACF7FCA4CAE93198 /* DZActivityNavigationBar.m */; };
+		94DCC410063C617EE3DD0C8AB90EA983 /* NSString-UrlEncode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2B30283A4E0717EE509FB8239D6E6 /* NSString-UrlEncode-dummy.m */; };
+		94DDF709E25A6F924072E0E263567A26 /* DZActivityBarAppearAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBCDE480D409FBCE81D0CEBA3FE0A2 /* DZActivityBarAppearAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0468CAB370863EFCD625FB3ABA9F079 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DCDD0CCDE2FFF5D0DAF4B648ABFEE3 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m */; };
+		AC311230EF9F2F7F8627C0D8039283EF /* DZVCOnceLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E859AC206CBCB12D49EBA844005CA2 /* DZVCOnceLifeCircleAction.m */; };
 		AD51B504C1A0F16B5EBE63665D680EC5 /* Pods-DZViewControllerLifeCircleAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 214617FC1AA9DBBC6A98659EC7F96321 /* Pods-DZViewControllerLifeCircleAction_Tests-dummy.m */; };
-		B1C5C22F8B98E066FBA71621F1E900A8 /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76E5700563FF9EFECD374CBB62841AD /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFB53E1566686D6084C92B9DF528DFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D9167390B8F545F526B2516D98E78857 /* UIViewController+appearSwizzedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B377BB53CD94EDC5AAD9C56DC8AB9F0B /* UIViewController+appearSwizzedBlock.m */; };
-		E2D3DA791DE2D3A92688DDA956F43726 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DCDD0CCDE2FFF5D0DAF4B648ABFEE3 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m */; };
-		E6F2B183E371C9CD6689A5FEA4D8D4B4 /* DZViewControllerLifeCircleBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C392DBAA45A4A18CC9FFD207AE0CAC17 /* DZViewControllerLifeCircleBaseAction.m */; };
-		E6F6E1E21E8A6B4422A2DDB6D0D57E22 /* DZViewControllerLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD037E73A2343E93C59AB74379C878C /* DZViewControllerLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FACEF56625446A84E65CC843832B54FF /* DZViewControllerLifeCircleBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7E88CA6286BB5DE546FF0159C62F0 /* DZViewControllerLifeCircleBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2961367F6BCB02BE494D54AE696BF26 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA4AC50A787A37DC71DBAF83BA7D0F4 /* DZDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A5C31AB2A22D588178C6BCAFDDA73B /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76E5700563FF9EFECD374CBB62841AD /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72F354472ADC7E68ED619B35BC150A9 /* DZRouteResponseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9249EE67DCE6E6F759BD0C3B9D06201B /* DZRouteResponseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8EA6FC0D922EC9E043912A4152FE8A2 /* DZActivityBarAppearAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C77545B92E01A4E7321EA520FC79D12 /* DZActivityBarAppearAction.m */; };
+		B987DC900F77FF073937C4EB7A6D46D4 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = F310BA371E06BCD6E41FBD34B8A07FE2 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7CE67D1C844957B4568E02774224D3 /* DZViewControllerLifeCircleBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7E88CA6286BB5DE546FF0159C62F0 /* DZViewControllerLifeCircleBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C012432F52F70E599FD01D06B2DA1B9D /* DZURLRouteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF349333CCA8B1C91BEF60406E465EE /* DZURLRouteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FB78F4E6A0883855467A3C0FEAAD41 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298A6BA00E4CD9C7025F3C307D84D /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C884503DA8E2EBCF40CB3335C882FFC3 /* DZViewControllerLifeCircleAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */; };
+		CBA10F55C1912B8F727457B172698538 /* DZActivityBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EC3929044993D9AE221E0D440E53A8 /* DZActivityBar-dummy.m */; };
+		CC569E9B6885DD5E422D9774811D2E51 /* UIView+YHAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 094441535F105DC66959F45D4D658B6E /* UIView+YHAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5D8B0228D964A1C71BF9452809200C /* DZUIStackLifeCircleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7862937ECC3997A1569FF422928DAFF5 /* DZUIStackLifeCircleAction.m */; };
+		CF922D924F7E9AF3ABE110A490C2A361 /* DZActivityBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E79935D5F74432B2494DF654AEE5A796 /* DZActivityBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98E3AF466F6104D388353E557025DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */; };
+		DA897F6DF1BE6E9100388BF456078131 /* DZViewControllerLifeCircleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD037E73A2343E93C59AB74379C878C /* DZViewControllerLifeCircleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D9E5E43D1A7A1759592623D6679868 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3DE2405BF0EBAE8AF40CC1E615565 /* UIDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31C6D4520C1B6DA370B60E0BB01A62E /* NSString-UrlEncode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBD7C9477999B38FD8C9913CF5A5F6C /* NSString-UrlEncode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F381D3581C6381B35FF26B327965A3FB /* DZRouteResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3B164D672873C0126D878269298BC /* DZRouteResponseContext.m */; };
+		FE8FED0B0B1302EBF67E56209D04A6CA /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7264C4317432F85A9751C738792C8A /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C1AAEF653FFDFBFD8EFBAC2C5D6B8A6 /* PBXContainerItemProxy */ = {
+		01AF29036713544E2AC74ADA8A674DFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF22139C535C0B338C1076FAB2918584;
+			remoteGlobalIDString = D3DB2D9F75F2815AD2D51DCAE0242C43;
+			remoteInfo = "NSString-UrlEncode";
+		};
+		18111989B03A64349EB4E38638E35F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13581EB5D88FFD8F439B0F96BB4291DC;
+			remoteInfo = DZURLRoute;
+		};
+		219A9FF90A34565334A897958D188CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B365E6EA6232E50136D892E10CC005;
+			remoteInfo = DZActivityBar;
+		};
+		476E0C618231CF54558202256D425FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64493A1645F26BCF59BA3AE373DC2CB;
+			remoteInfo = DZGeometryTools;
+		};
+		743F828B621F7F2071E9D4EFE615640F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DB2D9F75F2815AD2D51DCAE0242C43;
+			remoteInfo = "NSString-UrlEncode";
+		};
+		842F9BE603C0E731C9D310E4E267AA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7116DBA58864BB0E505FEA07578DBA0;
+			remoteInfo = DZViewControllerLifeCircleAction;
+		};
+		B6A37904D2C051B895B895FE7E1B069C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7116DBA58864BB0E505FEA07578DBA0;
+			remoteInfo = DZViewControllerLifeCircleAction;
+		};
+		D0B3C2B3B5CD3D1AE40B11200FA5217A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7116DBA58864BB0E505FEA07578DBA0;
 			remoteInfo = DZViewControllerLifeCircleAction;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0269D242430E46B56919A4C22AF64F09 /* DZGeometryTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZGeometryTools.modulemap; sourceTree = "<group>"; };
+		03BA5A9A55F4FA5AABFB4BDC4FDAE3D5 /* DZURLRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZURLRoute.framework; path = DZURLRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0619F5312BE180F5A7367EF728CEF2FA /* DZGeometryTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-umbrella.h"; sourceTree = "<group>"; };
+		0622A50E33C9C90548E782BE3361E02F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071F8D21D7B4F36AAFD97EC1D987061C /* Pods-DZViewControllerLifeCircleAction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DZViewControllerLifeCircleAction_Example.modulemap"; sourceTree = "<group>"; };
+		094441535F105DC66959F45D4D658B6E /* UIView+YHAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YHAttachment.h"; path = "DZActivityBar/Classes/UIView+YHAttachment.h"; sourceTree = "<group>"; };
+		0C7264C4317432F85A9751C738792C8A /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
+		0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_UrlEncode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D73334B00D184FD97D9E81567B53C60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8A9A18D0C2C82B2ABC8B7EB5E3DC2A /* DZURLRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRouteRequest.h; path = DZURLRoute/Classes/DZURLRouteRequest.h; sourceTree = "<group>"; };
+		0E4FABFA3D996AB339F1B0774C546D53 /* DZActivityBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZActivityBar.framework; path = DZActivityBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA312FCDBD13536290AB8C799D42E64 /* Pods-DZViewControllerLifeCircleAction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZViewControllerLifeCircleAction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13DF9D1D670189A1636BDBE168F4CA48 /* DZViewControllerLifeCircleAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-prefix.pch"; sourceTree = "<group>"; };
+		177E53CBB75DACD8D86F313DC3D394CE /* DZURLRouteUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteUtils.m; path = DZURLRoute/Classes/DZURLRouteUtils.m; sourceTree = "<group>"; };
+		18BBCDE480D409FBCE81D0CEBA3FE0A2 /* DZActivityBarAppearAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZActivityBarAppearAction.h; path = DZActivityBar/Classes/DZActivityBarAppearAction.h; sourceTree = "<group>"; };
+		1AE70F5DEC51BEE12F171A6FF584A66C /* DZURLWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLWeakProxy.h; path = DZURLRoute/Classes/DZURLWeakProxy.h; sourceTree = "<group>"; };
+		1C77545B92E01A4E7321EA520FC79D12 /* DZActivityBarAppearAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZActivityBarAppearAction.m; path = DZActivityBar/Classes/DZActivityBarAppearAction.m; sourceTree = "<group>"; };
 		214617FC1AA9DBBC6A98659EC7F96321 /* Pods-DZViewControllerLifeCircleAction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZViewControllerLifeCircleAction_Tests-dummy.m"; sourceTree = "<group>"; };
+		2297769E1B91186E446339614607F9AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADB7B7A76305C5FC01EC83B08A1B98F /* DZRouteRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZRouteRequestContext.m; path = DZURLRoute/Classes/DZRouteRequestContext.m; sourceTree = "<group>"; };
+		2DD68C82C465B2BFDC75AE4A71273FD2 /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
 		2FD037E73A2343E93C59AB74379C878C /* DZViewControllerLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZViewControllerLifeCircleAction.h; sourceTree = "<group>"; };
+		33DE57E3227D83C8B17714F1E692638E /* DZURLRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZURLRoute-umbrella.h"; sourceTree = "<group>"; };
 		34C7E88CA6286BB5DE546FF0159C62F0 /* DZViewControllerLifeCircleBaseAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZViewControllerLifeCircleBaseAction.h; sourceTree = "<group>"; };
 		35DCDD0CCDE2FFF5D0DAF4B648ABFEE3 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZViewControllerLifeCircleAction_Example-dummy.m"; sourceTree = "<group>"; };
+		383672BCF1D1F05ED0738317028B4DD9 /* DZURLRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRoute.h; path = DZURLRoute/Classes/DZURLRoute.h; sourceTree = "<group>"; };
 		3AAD981700828E46E7D0AB42ECE0270B /* Pods-DZViewControllerLifeCircleAction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZViewControllerLifeCircleAction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DA2B30283A4E0717EE509FB8239D6E6 /* NSString-UrlEncode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-UrlEncode-dummy.m"; sourceTree = "<group>"; };
 		3E6E31B3764D8E94A0C9E92BB5E1CEB3 /* Pods-DZViewControllerLifeCircleAction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZViewControllerLifeCircleAction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		401C5D43200C58077AF96683DAC292B4 /* NSString-UrlEncode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-UrlEncode.xcconfig"; sourceTree = "<group>"; };
 		41D880772F1A4D4B4D08DB4160E41DE0 /* Pods-DZViewControllerLifeCircleAction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZViewControllerLifeCircleAction_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		44144AFDB0498A2DBE7AB7A8A5874DFD /* Pods-DZViewControllerLifeCircleAction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZViewControllerLifeCircleAction_Tests-resources.sh"; sourceTree = "<group>"; };
 		46AB92202E2C6422917A7B371300669F /* Pods-DZViewControllerLifeCircleAction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZViewControllerLifeCircleAction_Example-frameworks.sh"; sourceTree = "<group>"; };
 		46F3CF1248F7566C1ACEE7F910D37CDB /* DZViewControllerLifeCircleAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZViewControllerLifeCircleAction-umbrella.h"; sourceTree = "<group>"; };
-		4C44D0916876124604F28B490B9FADA6 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZViewControllerLifeCircleAction_Tests.framework; path = "Pods-DZViewControllerLifeCircleAction_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DBC78D68F7A0D6E04DAF7667E03D8F /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
 		5A2A064CA63B4E993707DD0BD8BEE27B /* DZViewControllerLifeCircleAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZViewControllerLifeCircleAction-dummy.m"; sourceTree = "<group>"; };
+		5C45B4248E4D6352FAD6708927E56D3C /* DZURLRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRouteResponse.h; path = DZURLRoute/Classes/DZURLRouteResponse.h; sourceTree = "<group>"; };
+		5DF349333CCA8B1C91BEF60406E465EE /* DZURLRouteUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRouteUtils.h; path = DZURLRoute/Classes/DZURLRouteUtils.h; sourceTree = "<group>"; };
+		6055257124F7048B52A0A8F96BC6FCB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6583F77C44B2F04B70502E4D0F47A3C5 /* UIViewController+ActivityNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ActivityNavigationBar.h"; path = "DZActivityBar/Classes/UIViewController+ActivityNavigationBar.h"; sourceTree = "<group>"; };
 		65E53E4DE0D385E4E176034EE54F3910 /* Pods-DZViewControllerLifeCircleAction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZViewControllerLifeCircleAction_Example-resources.sh"; sourceTree = "<group>"; };
+		65EC3929044993D9AE221E0D440E53A8 /* DZActivityBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZActivityBar-dummy.m"; sourceTree = "<group>"; };
 		69A8B4D794D0BD7FDE2973BE82609BF4 /* DZViewControllerLifeCircleAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZViewControllerLifeCircleAction.xcconfig; sourceTree = "<group>"; };
+		704560A099D4E3E00AAD8CC32F4DA4E6 /* Pods_DZViewControllerLifeCircleAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZViewControllerLifeCircleAction_Example.framework; path = "Pods-DZViewControllerLifeCircleAction_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7329F516E624B189DC49748DFFA0243A /* DZUIStackLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZUIStackLifeCircleAction.h; path = DZURLRoute/Classes/DZUIStackLifeCircleAction.h; sourceTree = "<group>"; };
+		74192547B0CE7B9B4BD7DD7528B47C2B /* DZURLRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZURLRoute-prefix.pch"; sourceTree = "<group>"; };
+		74C0FDF1A701D7D2C922050BBA2E77A6 /* DZRouteRequestContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZRouteRequestContext.h; path = DZURLRoute/Classes/DZRouteRequestContext.h; sourceTree = "<group>"; };
+		76E110B0269E653C4816227ABF64CF7F /* DZURLRouteRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteRecord.m; path = DZURLRoute/Classes/DZURLRouteRecord.m; sourceTree = "<group>"; };
+		7862937ECC3997A1569FF422928DAFF5 /* DZUIStackLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZUIStackLifeCircleAction.m; path = DZURLRoute/Classes/DZUIStackLifeCircleAction.m; sourceTree = "<group>"; };
+		7A7E185B2966DE333B9E268ACEBDE0C4 /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZViewControllerLifeCircleAction.framework; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9D291E6CD151295555AA25D840DB32 /* UIViewController+ActivityNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ActivityNavigationBar.m"; path = "DZActivityBar/Classes/UIViewController+ActivityNavigationBar.m"; sourceTree = "<group>"; };
+		7AA3B164D672873C0126D878269298BC /* DZRouteResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZRouteResponseContext.m; path = DZURLRoute/Classes/DZRouteResponseContext.m; sourceTree = "<group>"; };
+		7CA838CF33490ECCCA28A8574E930835 /* NSString-UrlEncode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-prefix.pch"; sourceTree = "<group>"; };
 		80276D641D733860457A4145CA2D716E /* Pods-DZViewControllerLifeCircleAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZViewControllerLifeCircleAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		87DC1F92C2525DAE19ACC9C8AB24C026 /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
 		8CF39D6199F4FE13D474B6E657DC9FFB /* Pods-DZViewControllerLifeCircleAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZViewControllerLifeCircleAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F6CA420544F880FEF0F04F183B1DE84 /* NSString+URLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		9249EE67DCE6E6F759BD0C3B9D06201B /* DZRouteResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZRouteResponseContext.h; path = DZURLRoute/Classes/DZRouteResponseContext.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9711685A34F8153C8996650DDBA1CF2B /* DZViewControllerLifeCircleAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZViewControllerLifeCircleAction.framework; path = DZViewControllerLifeCircleAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B695A49C9B1BD2F73FF8B5BEBFF72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A96C08B5AD48A59F6893A95A5BEAF8 /* DZURLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLContext.h; path = DZURLRoute/Classes/DZURLContext.h; sourceTree = "<group>"; };
 		98E859AC206CBCB12D49EBA844005CA2 /* DZVCOnceLifeCircleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZVCOnceLifeCircleAction.m; sourceTree = "<group>"; };
 		9C3DBDE58D4B6286B5E192CBD9BC251D /* Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A380EA54B072C39B8F5AF5A3921303F6 /* DZURLRouteRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZURLRouteRecord.h; path = DZURLRoute/Classes/DZURLRouteRecord.h; sourceTree = "<group>"; };
+		A5518F136F6342676415187EC5AA7D46 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
 		A76E5700563FF9EFECD374CBB62841AD /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZViewControllerLifeCircleAction_Example-umbrella.h"; sourceTree = "<group>"; };
 		A7F5EC18B7FEE2CA2E20FB1F9350DFC7 /* Pods-DZViewControllerLifeCircleAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZViewControllerLifeCircleAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA4AC50A787A37DC71DBAF83BA7D0F4 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
+		AB6973385CBE93783BA8D4A52E035C90 /* DZURLRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteResponse.m; path = DZURLRoute/Classes/DZURLRouteResponse.m; sourceTree = "<group>"; };
+		AC0D72D7898C9931CB90B6A477FC0A56 /* DZActivityBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZActivityBar-prefix.pch"; sourceTree = "<group>"; };
 		B02039432D7BE5FD1F85DF7FA13AA1E5 /* Pods-DZViewControllerLifeCircleAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZViewControllerLifeCircleAction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B1D1A4791EBDDD377777874520674407 /* DZURLRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRoute.m; path = DZURLRoute/Classes/DZURLRoute.m; sourceTree = "<group>"; };
 		B377BB53CD94EDC5AAD9C56DC8AB9F0B /* UIViewController+appearSwizzedBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+appearSwizzedBlock.m"; sourceTree = "<group>"; };
 		B398950C36F343292761221E0D4170B0 /* UIViewController+appearSwizzedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+appearSwizzedBlock.h"; sourceTree = "<group>"; };
+		B6C3DE2405BF0EBAE8AF40CC1E615565 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
 		B6F0DF516B8CBF36290F7FFF885FFC37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D5045AB072D14140959476779CD061 /* DZURLRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZURLRoute.xcconfig; sourceTree = "<group>"; };
+		BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BCC0E9758B3D3894C90B2EEC38967496 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZViewControllerLifeCircleAction_Tests.framework; path = "Pods-DZViewControllerLifeCircleAction_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0B88B03091D0DA0A31F09E6E74AC6D /* DZActivityBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZActivityBar.modulemap; sourceTree = "<group>"; };
+		C38B49122EAAE88682B16DB7A6910839 /* DZURLRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLRouteRequest.m; path = DZURLRoute/Classes/DZURLRouteRequest.m; sourceTree = "<group>"; };
 		C392DBAA45A4A18CC9FFD207AE0CAC17 /* DZViewControllerLifeCircleBaseAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZViewControllerLifeCircleBaseAction.m; sourceTree = "<group>"; };
 		C713326B37C41B7985E9127FAAA5084F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C8E4ED5AE0D8158017D6BA41D6A833F9 /* NSString_UrlEncode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_UrlEncode.framework; path = "NSString-UrlEncode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBD7C9477999B38FD8C9913CF5A5F6C /* NSString-UrlEncode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-UrlEncode-umbrella.h"; sourceTree = "<group>"; };
+		CF3C487A5BE405BAA92029B9B3ACCF32 /* DZActivityBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZActivityBar-umbrella.h"; sourceTree = "<group>"; };
+		D07B086E217FDAA0F94776BB65C1CE01 /* DZURLRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZURLRoute-dummy.m"; sourceTree = "<group>"; };
+		D2443C40D66CB0F5E70E8577B7CF1BA8 /* DZActivityBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZActivityBar.xcconfig; sourceTree = "<group>"; };
+		D63443DEA626E6466F947FCB541D6AF9 /* NSString-UrlEncode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-UrlEncode.modulemap"; sourceTree = "<group>"; };
 		D86D9B2287BB45E56E371A52D2A1CEE5 /* DZVCOnceLifeCircleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZVCOnceLifeCircleAction.h; sourceTree = "<group>"; };
+		DA84EEE51969475795157985F7290CBD /* DZGeometryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZGeometryTools.framework; path = DZGeometryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB58AA9A98114961017DA3A2BA452635 /* DZViewControllerLifeCircleAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZViewControllerLifeCircleAction.modulemap; sourceTree = "<group>"; };
+		DB80E1F5FB7B85491FA5F5CF9A42B669 /* DZURLContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLContext.m; path = DZURLRoute/Classes/DZURLContext.m; sourceTree = "<group>"; };
 		E06F9507312F8AFB8E9ED26F7A9C2F04 /* Pods-DZViewControllerLifeCircleAction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZViewControllerLifeCircleAction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E21417F69D9F006731B5B30472232CDE /* DZURLRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DZURLRoute.modulemap; sourceTree = "<group>"; };
+		E3834584C8219B5FACF7FCA4CAE93198 /* DZActivityNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZActivityNavigationBar.m; path = DZActivityBar/Classes/DZActivityNavigationBar.m; sourceTree = "<group>"; };
 		E467D1722B000939FD2C2890DF386590 /* Pods-DZViewControllerLifeCircleAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DZViewControllerLifeCircleAction_Tests.modulemap"; sourceTree = "<group>"; };
-		F27C9E51E59C97448131E3A3E034F7AF /* Pods_DZViewControllerLifeCircleAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DZViewControllerLifeCircleAction_Example.framework; path = "Pods-DZViewControllerLifeCircleAction_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5687E9489FED9AC5687CB0E2AEA8DAA /* DZURLWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZURLWeakProxy.m; path = DZURLRoute/Classes/DZURLWeakProxy.m; sourceTree = "<group>"; };
+		E79935D5F74432B2494DF654AEE5A796 /* DZActivityBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZActivityBar.h; path = DZActivityBar/Classes/DZActivityBar.h; sourceTree = "<group>"; };
+		E8AE7AF8455B0093940BC3135F32D066 /* DZActivityNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZActivityNavigationBar.h; path = DZActivityBar/Classes/DZActivityNavigationBar.h; sourceTree = "<group>"; };
+		ED43BFFC28AC1B58C96336078CE69FD1 /* UIView+YHAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YHAttachment.m"; path = "DZActivityBar/Classes/UIView+YHAttachment.m"; sourceTree = "<group>"; };
+		EEA79250D1D6054FB62A25E6B5D460EA /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		F310BA371E06BCD6E41FBD34B8A07FE2 /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		F3B298A6BA00E4CD9C7025F3C307D84D /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23D5CD7D253434CABD0404D1A315B9FE /* Frameworks */ = {
+		19FAC2029B9F8E9B3C45E61AACC3EECE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB53E1566686D6084C92B9DF528DFC7 /* Foundation.framework in Frameworks */,
+				4747AEE6CB393B1A8CD8F03B2918B3D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F006163D2A34C1E4A4F42FBE4C5233 /* Frameworks */ = {
+		2D1952B7A013891836F36169B3AA5A7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D6B4102B84C053182E4EA783E548AD /* Foundation.framework in Frameworks */,
+				5037F1B6D9954D96B580B37C73514773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8D54A56EE5172E7AF424FD63CACCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341501CAC12C324CFEBAE45719A55E2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A88F1B7318056729750DA2B5E0EBC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C884503DA8E2EBCF40CB3335C882FFC3 /* DZViewControllerLifeCircleAction.framework in Frameworks */,
+				01147752A574AB46A9A77DAC4B0F1600 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F80FBD0BBE8113660A3AB7B84EF3193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B23A98065D1EB3B866945B0988E00D /* DZViewControllerLifeCircleAction.framework in Frameworks */,
+				D98E3AF466F6104D388353E557025DDE /* Foundation.framework in Frameworks */,
+				1D7C10E8E6419A013921D69B4DDC51F0 /* NSString_UrlEncode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,15 +296,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3FC810DBD6260F7B3BAC54B2311B16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB51253B762FB94DE094741C44CE988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E89794CC012572BDC2285B3F54D4541 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA662D2BF8BED2B7990A5E28485BB9E1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		3692AFECBD3E7AF7D80BDDF88A422D4A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AF13BCB309711FC90294F5A7865B39A3 /* DZViewControllerLifeCircleAction */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4413AA271ADFBEB87D9B14DAE684F19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4FABFA3D996AB339F1B0774C546D53 /* DZActivityBar.framework */,
+				DA84EEE51969475795157985F7290CBD /* DZGeometryTools.framework */,
+				03BA5A9A55F4FA5AABFB4BDC4FDAE3D5 /* DZURLRoute.framework */,
+				7A7E185B2966DE333B9E268ACEBDE0C4 /* DZViewControllerLifeCircleAction.framework */,
+				C8E4ED5AE0D8158017D6BA41D6A833F9 /* NSString_UrlEncode.framework */,
+				704560A099D4E3E00AAD8CC32F4DA4E6 /* Pods_DZViewControllerLifeCircleAction_Example.framework */,
+				BCC0E9758B3D3894C90B2EEC38967496 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4B608C597E82C2D6AE8FF5EA694BB980 /* Pods-DZViewControllerLifeCircleAction_Example */ = {
@@ -139,6 +364,16 @@
 			path = DZViewControllerLifeCircleAction;
 			sourceTree = "<group>";
 		};
+		525C62DBB3170322ADCF12E86948CE94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA15C9C114E0390A4548388A576EB48 /* DZViewControllerLifeCircleAction.framework */,
+				0CDDD28D6E4829E252EA59E53C471B3C /* NSString_UrlEncode.framework */,
+				0E89794CC012572BDC2285B3F54D4541 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53C62E8B8A85D6EC307F6B1F1EA33E78 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +388,38 @@
 			path = "Example/Pods/Target Support Files/DZViewControllerLifeCircleAction";
 			sourceTree = "<group>";
 		};
+		547CBD14A7C60942E4ACB19EB787AC1E /* DZActivityBar */ = {
+			isa = PBXGroup;
+			children = (
+				E79935D5F74432B2494DF654AEE5A796 /* DZActivityBar.h */,
+				18BBCDE480D409FBCE81D0CEBA3FE0A2 /* DZActivityBarAppearAction.h */,
+				1C77545B92E01A4E7321EA520FC79D12 /* DZActivityBarAppearAction.m */,
+				E8AE7AF8455B0093940BC3135F32D066 /* DZActivityNavigationBar.h */,
+				E3834584C8219B5FACF7FCA4CAE93198 /* DZActivityNavigationBar.m */,
+				094441535F105DC66959F45D4D658B6E /* UIView+YHAttachment.h */,
+				ED43BFFC28AC1B58C96336078CE69FD1 /* UIView+YHAttachment.m */,
+				6583F77C44B2F04B70502E4D0F47A3C5 /* UIViewController+ActivityNavigationBar.h */,
+				7A9D291E6CD151295555AA25D840DB32 /* UIViewController+ActivityNavigationBar.m */,
+				DC9427BDC012271608D6AFC3287378E7 /* Support Files */,
+			);
+			name = DZActivityBar;
+			path = DZActivityBar;
+			sourceTree = "<group>";
+		};
+		66AEFD7D7907AD57306C2CD6CF92962D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				953B695A49C9B1BD2F73FF8B5BEBFF72 /* Info.plist */,
+				D63443DEA626E6466F947FCB541D6AF9 /* NSString-UrlEncode.modulemap */,
+				401C5D43200C58077AF96683DAC292B4 /* NSString-UrlEncode.xcconfig */,
+				3DA2B30283A4E0717EE509FB8239D6E6 /* NSString-UrlEncode-dummy.m */,
+				7CA838CF33490ECCCA28A8574E930835 /* NSString-UrlEncode-prefix.pch */,
+				CCBD7C9477999B38FD8C9913CF5A5F6C /* NSString-UrlEncode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSString-UrlEncode";
+			sourceTree = "<group>";
+		};
 		675CC7EA247ECED338449A45335B43E0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,12 +429,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		6AE44E3061BE1C9B36CA3EBA30EDC36E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				547CBD14A7C60942E4ACB19EB787AC1E /* DZActivityBar */,
+				CD6AEE8231B9536E8AC6FF0580E68810 /* DZGeometryTools */,
+				88AE30834ABBB5B596714FE9CAC480EA /* DZURLRoute */,
+				8B80CD02EDDF6DBA8DC40FA0A1F5101D /* NSString-UrlEncode */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7AE0235352D16FD4666CC9937C9816A0 /* Pods-DZViewControllerLifeCircleAction_Tests */ = {
@@ -193,10 +463,79 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3692AFECBD3E7AF7D80BDDF88A422D4A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BFCA0C753971B4C973F0A72BABA5A59C /* Products */,
+				525C62DBB3170322ADCF12E86948CE94 /* Frameworks */,
+				6AE44E3061BE1C9B36CA3EBA30EDC36E /* Pods */,
+				4413AA271ADFBEB87D9B14DAE684F19C /* Products */,
 				675CC7EA247ECED338449A45335B43E0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88AE30834ABBB5B596714FE9CAC480EA /* DZURLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				74C0FDF1A701D7D2C922050BBA2E77A6 /* DZRouteRequestContext.h */,
+				2ADB7B7A76305C5FC01EC83B08A1B98F /* DZRouteRequestContext.m */,
+				9249EE67DCE6E6F759BD0C3B9D06201B /* DZRouteResponseContext.h */,
+				7AA3B164D672873C0126D878269298BC /* DZRouteResponseContext.m */,
+				7329F516E624B189DC49748DFFA0243A /* DZUIStackLifeCircleAction.h */,
+				7862937ECC3997A1569FF422928DAFF5 /* DZUIStackLifeCircleAction.m */,
+				97A96C08B5AD48A59F6893A95A5BEAF8 /* DZURLContext.h */,
+				DB80E1F5FB7B85491FA5F5CF9A42B669 /* DZURLContext.m */,
+				383672BCF1D1F05ED0738317028B4DD9 /* DZURLRoute.h */,
+				B1D1A4791EBDDD377777874520674407 /* DZURLRoute.m */,
+				A380EA54B072C39B8F5AF5A3921303F6 /* DZURLRouteRecord.h */,
+				76E110B0269E653C4816227ABF64CF7F /* DZURLRouteRecord.m */,
+				0D8A9A18D0C2C82B2ABC8B7EB5E3DC2A /* DZURLRouteRequest.h */,
+				C38B49122EAAE88682B16DB7A6910839 /* DZURLRouteRequest.m */,
+				5C45B4248E4D6352FAD6708927E56D3C /* DZURLRouteResponse.h */,
+				AB6973385CBE93783BA8D4A52E035C90 /* DZURLRouteResponse.m */,
+				5DF349333CCA8B1C91BEF60406E465EE /* DZURLRouteUtils.h */,
+				177E53CBB75DACD8D86F313DC3D394CE /* DZURLRouteUtils.m */,
+				1AE70F5DEC51BEE12F171A6FF584A66C /* DZURLWeakProxy.h */,
+				E5687E9489FED9AC5687CB0E2AEA8DAA /* DZURLWeakProxy.m */,
+				9D540472E0CA62F529BFC8ED3DB98E16 /* Support Files */,
+			);
+			name = DZURLRoute;
+			path = DZURLRoute;
+			sourceTree = "<group>";
+		};
+		8B80CD02EDDF6DBA8DC40FA0A1F5101D /* NSString-UrlEncode */ = {
+			isa = PBXGroup;
+			children = (
+				F310BA371E06BCD6E41FBD34B8A07FE2 /* NSString+URLEncode.h */,
+				8F6CA420544F880FEF0F04F183B1DE84 /* NSString+URLEncode.m */,
+				66AEFD7D7907AD57306C2CD6CF92962D /* Support Files */,
+			);
+			name = "NSString-UrlEncode";
+			path = "NSString-UrlEncode";
+			sourceTree = "<group>";
+		};
+		98F730D0CCA767CAA3A31977A22BEDD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0269D242430E46B56919A4C22AF64F09 /* DZGeometryTools.modulemap */,
+				87DC1F92C2525DAE19ACC9C8AB24C026 /* DZGeometryTools.xcconfig */,
+				EEA79250D1D6054FB62A25E6B5D460EA /* DZGeometryTools-dummy.m */,
+				2DD68C82C465B2BFDC75AE4A71273FD2 /* DZGeometryTools-prefix.pch */,
+				0619F5312BE180F5A7367EF728CEF2FA /* DZGeometryTools-umbrella.h */,
+				2297769E1B91186E446339614607F9AB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZGeometryTools";
+			sourceTree = "<group>";
+		};
+		9D540472E0CA62F529BFC8ED3DB98E16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21417F69D9F006731B5B30472232CDE /* DZURLRoute.modulemap */,
+				B8D5045AB072D14140959476779CD061 /* DZURLRoute.xcconfig */,
+				D07B086E217FDAA0F94776BB65C1CE01 /* DZURLRoute-dummy.m */,
+				74192547B0CE7B9B4BD7DD7528B47C2B /* DZURLRoute-prefix.pch */,
+				33DE57E3227D83C8B17714F1E692638E /* DZURLRoute-umbrella.h */,
+				0622A50E33C9C90548E782BE3361E02F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZURLRoute";
 			sourceTree = "<group>";
 		};
 		AF13BCB309711FC90294F5A7865B39A3 /* DZViewControllerLifeCircleAction */ = {
@@ -224,44 +563,93 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CD6AEE8231B9536E8AC6FF0580E68810 /* DZGeometryTools */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				AAA4AC50A787A37DC71DBAF83BA7D0F4 /* DZDevices.h */,
+				F3B298A6BA00E4CD9C7025F3C307D84D /* DZDevices.m */,
+				0C7264C4317432F85A9751C738792C8A /* DZGeometryTools.h */,
+				59DBC78D68F7A0D6E04DAF7667E03D8F /* DZGeometryTools.m */,
+				B6C3DE2405BF0EBAE8AF40CC1E615565 /* UIDeviceHardware.h */,
+				A5518F136F6342676415187EC5AA7D46 /* UIDeviceHardware.m */,
+				98F730D0CCA767CAA3A31977A22BEDD6 /* Support Files */,
 			);
-			name = Frameworks;
+			name = DZGeometryTools;
+			path = DZGeometryTools;
 			sourceTree = "<group>";
 		};
-		BFCA0C753971B4C973F0A72BABA5A59C /* Products */ = {
+		DC9427BDC012271608D6AFC3287378E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9711685A34F8153C8996650DDBA1CF2B /* DZViewControllerLifeCircleAction.framework */,
-				F27C9E51E59C97448131E3A3E034F7AF /* Pods_DZViewControllerLifeCircleAction_Example.framework */,
-				4C44D0916876124604F28B490B9FADA6 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */,
+				BF0B88B03091D0DA0A31F09E6E74AC6D /* DZActivityBar.modulemap */,
+				D2443C40D66CB0F5E70E8577B7CF1BA8 /* DZActivityBar.xcconfig */,
+				65EC3929044993D9AE221E0D440E53A8 /* DZActivityBar-dummy.m */,
+				AC0D72D7898C9931CB90B6A477FC0A56 /* DZActivityBar-prefix.pch */,
+				CF3C487A5BE405BAA92029B9B3ACCF32 /* DZActivityBar-umbrella.h */,
+				6055257124F7048B52A0A8F96BC6FCB1 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/DZActivityBar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4980D24B2790011BD78E10D2D18608DB /* Headers */ = {
+		090C1060F8DE1AACF5EE019FA685973A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B01F34D569F1DD8D9740294B73DB821 /* DZVCOnceLifeCircleAction.h in Headers */,
-				65DB6152F83D7ED0551628F2F57EBCAF /* DZViewControllerLifeCircleAction-umbrella.h in Headers */,
-				E6F6E1E21E8A6B4422A2DDB6D0D57E22 /* DZViewControllerLifeCircleAction.h in Headers */,
-				FACEF56625446A84E65CC843832B54FF /* DZViewControllerLifeCircleBaseAction.h in Headers */,
-				A30BCF895845231596063025188F19EF /* UIViewController+appearSwizzedBlock.h in Headers */,
+				5ED24907E596366EBD1598C36FC76B7F /* DZRouteRequestContext.h in Headers */,
+				B72F354472ADC7E68ED619B35BC150A9 /* DZRouteResponseContext.h in Headers */,
+				1FCBB5AE2EAD95A07A6BC415C92FAB7E /* DZUIStackLifeCircleAction.h in Headers */,
+				2D573BD944FCCD3B4BD81531CFA6110B /* DZURLContext.h in Headers */,
+				2D490EBBA97E40EBF669538F2E072A7A /* DZURLRoute-umbrella.h in Headers */,
+				6A750069965FBCB9E06B9E3F73DB423F /* DZURLRoute.h in Headers */,
+				5DCF6AA79E8A5D689AED45E830F74CF5 /* DZURLRouteRecord.h in Headers */,
+				20D2BC65EA275082D848990A3F58B5C0 /* DZURLRouteRequest.h in Headers */,
+				0210E8A79E84187E201DE61F24CECF25 /* DZURLRouteResponse.h in Headers */,
+				C012432F52F70E599FD01D06B2DA1B9D /* DZURLRouteUtils.h in Headers */,
+				02423A72F9BB9D86FC51B4E8015ADCE7 /* DZURLWeakProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FC20166361CFC4952760536D163D4BC /* Headers */ = {
+		164ABC08D2D8E8EFCC2E782CDEE9D051 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C5C22F8B98E066FBA71621F1E900A8 /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h in Headers */,
+				B987DC900F77FF073937C4EB7A6D46D4 /* NSString+URLEncode.h in Headers */,
+				E31C6D4520C1B6DA370B60E0BB01A62E /* NSString-UrlEncode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81081BF151324B6D6C0EE4472A1E1C19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2961367F6BCB02BE494D54AE696BF26 /* DZDevices.h in Headers */,
+				198900C40A0F68610091B2F2BF829CFB /* DZGeometryTools-umbrella.h in Headers */,
+				FE8FED0B0B1302EBF67E56209D04A6CA /* DZGeometryTools.h in Headers */,
+				E1D9E5E43D1A7A1759592623D6679868 /* UIDeviceHardware.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EB7C0C3B6BBAF6A6EC5B655402FE7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5C31AB2A22D588178C6BCAFDDA73B /* Pods-DZViewControllerLifeCircleAction_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD95D4511F2B62F8B4D8858B6D356B1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C40CCA85C2D7438EAAD29F8F2CFB20A /* DZVCOnceLifeCircleAction.h in Headers */,
+				5BB229AD8992BE1F3DC3F47B3C1E5687 /* DZViewControllerLifeCircleAction-umbrella.h in Headers */,
+				DA897F6DF1BE6E9100388BF456078131 /* DZViewControllerLifeCircleAction.h in Headers */,
+				BD7CE67D1C844957B4568E02774224D3 /* DZViewControllerLifeCircleBaseAction.h in Headers */,
+				408DF069F2F91B567ED16A35BB6632CB /* UIViewController+appearSwizzedBlock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,42 +661,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D252ED9D68B4ACC009E0A547280DB939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A819EF59574638532ADA65340C95DDE /* DZActivityBar-umbrella.h in Headers */,
+				CF922D924F7E9AF3ABE110A490C2A361 /* DZActivityBar.h in Headers */,
+				94DDF709E25A6F924072E0E263567A26 /* DZActivityBarAppearAction.h in Headers */,
+				1D2F8595010C3C7A14F69D2325AE1BFF /* DZActivityNavigationBar.h in Headers */,
+				CC569E9B6885DD5E422D9774811D2E51 /* UIView+YHAttachment.h in Headers */,
+				6ACAA9B6AA96EDA74628F16900336AE0 /* UIViewController+ActivityNavigationBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF22139C535C0B338C1076FAB2918584 /* DZViewControllerLifeCircleAction */ = {
+		13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4A97251666080EF3E021865D932F3A2 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */;
+			buildConfigurationList = FA009757C218A6D7E917DBE770CD1B57 /* Build configuration list for PBXNativeTarget "DZURLRoute" */;
 			buildPhases = (
-				2F57695D0BB558C79C65487C85415410 /* Sources */,
-				62F006163D2A34C1E4A4F42FBE4C5233 /* Frameworks */,
-				4980D24B2790011BD78E10D2D18608DB /* Headers */,
+				DD5F35725C5B85A2B6B7EDABE6B38C72 /* Sources */,
+				6F80FBD0BBE8113660A3AB7B84EF3193 /* Frameworks */,
+				090C1060F8DE1AACF5EE019FA685973A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D72562E1F3DA8A8619EED8CB7B9BFD96 /* PBXTargetDependency */,
+				AADEC04D308C0C2C03D2EF8EDA15D861 /* PBXTargetDependency */,
 			);
-			name = DZViewControllerLifeCircleAction;
-			productName = DZViewControllerLifeCircleAction;
-			productReference = 9711685A34F8153C8996650DDBA1CF2B /* DZViewControllerLifeCircleAction.framework */;
+			name = DZURLRoute;
+			productName = DZURLRoute;
+			productReference = 03BA5A9A55F4FA5AABFB4BDC4FDAE3D5 /* DZURLRoute.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D12105E2D424D67839C0B0453B626973 /* Pods-DZViewControllerLifeCircleAction_Example */ = {
+		20B365E6EA6232E50136D892E10CC005 /* DZActivityBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9542225318A72A0D8C7A1C2C0A5CB82 /* Build configuration list for PBXNativeTarget "Pods-DZViewControllerLifeCircleAction_Example" */;
+			buildConfigurationList = F4FC527C2824255DAE2B20AF355C5EF4 /* Build configuration list for PBXNativeTarget "DZActivityBar" */;
 			buildPhases = (
-				71353A794D8E4AF21D4BACE7EF8D4C80 /* Sources */,
-				23D5CD7D253434CABD0404D1A315B9FE /* Frameworks */,
-				6FC20166361CFC4952760536D163D4BC /* Headers */,
+				337B70442938D9B03A2326D2F58F2965 /* Sources */,
+				6A88F1B7318056729750DA2B5E0EBC78 /* Frameworks */,
+				D252ED9D68B4ACC009E0A547280DB939 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E36A87193EFE1FF54585E5DDE5FEB2B7 /* PBXTargetDependency */,
+				2DE743FE3DDB703EC3969E80F4F0EE85 /* PBXTargetDependency */,
+			);
+			name = DZActivityBar;
+			productName = DZActivityBar;
+			productReference = 0E4FABFA3D996AB339F1B0774C546D53 /* DZActivityBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		489622CAD40116ABF6262D8937668398 /* Pods-DZViewControllerLifeCircleAction_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895E908636A1F6DF38326FD450276A72 /* Build configuration list for PBXNativeTarget "Pods-DZViewControllerLifeCircleAction_Example" */;
+			buildPhases = (
+				85A9A80DEBDBA33CB27F47C3CE1F025B /* Sources */,
+				2D1952B7A013891836F36169B3AA5A7C /* Frameworks */,
+				B0EB7C0C3B6BBAF6A6EC5B655402FE7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DDACBF7CA774BB57AD483F4A4CD9EA /* PBXTargetDependency */,
+				8875927FAF6FC0171C9D359A616DF098 /* PBXTargetDependency */,
+				6253502A7B159EC051C64653C6DD46B0 /* PBXTargetDependency */,
+				1506FF4C7C25E2120F39580E4063D7DB /* PBXTargetDependency */,
+				1B7736CC80AE161FF504AD0971469DA6 /* PBXTargetDependency */,
 			);
 			name = "Pods-DZViewControllerLifeCircleAction_Example";
 			productName = "Pods-DZViewControllerLifeCircleAction_Example";
-			productReference = F27C9E51E59C97448131E3A3E034F7AF /* Pods_DZViewControllerLifeCircleAction_Example.framework */;
+			productReference = 704560A099D4E3E00AAD8CC32F4DA4E6 /* Pods_DZViewControllerLifeCircleAction_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A64493A1645F26BCF59BA3AE373DC2CB /* DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94679C3517EC53FD9FCB620AC87163FA /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
+			buildPhases = (
+				F6DD1466453989BB8E285D8E6C821EFC /* Sources */,
+				E3FC810DBD6260F7B3BAC54B2311B16A /* Frameworks */,
+				81081BF151324B6D6C0EE4472A1E1C19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZGeometryTools;
+			productName = DZGeometryTools;
+			productReference = DA84EEE51969475795157985F7290CBD /* DZGeometryTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7AC9D737DC704C65D4792DB8AB1EAC /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */;
+			buildPhases = (
+				34915D033D2A0164F1B75F2CA1E3C982 /* Sources */,
+				19FAC2029B9F8E9B3C45E61AACC3EECE /* Frameworks */,
+				164ABC08D2D8E8EFCC2E782CDEE9D051 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString-UrlEncode";
+			productName = "NSString-UrlEncode";
+			productReference = C8E4ED5AE0D8158017D6BA41D6A833F9 /* NSString_UrlEncode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DAF7F142C71B932010968435AE3D5108 /* Pods-DZViewControllerLifeCircleAction_Tests */ = {
@@ -325,7 +784,24 @@
 			);
 			name = "Pods-DZViewControllerLifeCircleAction_Tests";
 			productName = "Pods-DZViewControllerLifeCircleAction_Tests";
-			productReference = 4C44D0916876124604F28B490B9FADA6 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */;
+			productReference = BCC0E9758B3D3894C90B2EEC38967496 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7116DBA58864BB0E505FEA07578DBA0 /* DZViewControllerLifeCircleAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75634FCF0168AB29FC32312B6914F1F4 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */;
+			buildPhases = (
+				1029BD5B708F1D69E70E41A51FF897D3 /* Sources */,
+				3A8D54A56EE5172E7AF424FD63CACCB7 /* Frameworks */,
+				BD95D4511F2B62F8B4D8858B6D356B1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZViewControllerLifeCircleAction;
+			productName = DZViewControllerLifeCircleAction;
+			productReference = 7A7E185B2966DE333B9E268ACEBDE0C4 /* DZViewControllerLifeCircleAction.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -345,34 +821,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BFCA0C753971B4C973F0A72BABA5A59C /* Products */;
+			productRefGroup = 4413AA271ADFBEB87D9B14DAE684F19C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF22139C535C0B338C1076FAB2918584 /* DZViewControllerLifeCircleAction */,
-				D12105E2D424D67839C0B0453B626973 /* Pods-DZViewControllerLifeCircleAction_Example */,
+				20B365E6EA6232E50136D892E10CC005 /* DZActivityBar */,
+				A64493A1645F26BCF59BA3AE373DC2CB /* DZGeometryTools */,
+				13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */,
+				F7116DBA58864BB0E505FEA07578DBA0 /* DZViewControllerLifeCircleAction */,
+				D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */,
+				489622CAD40116ABF6262D8937668398 /* Pods-DZViewControllerLifeCircleAction_Example */,
 				DAF7F142C71B932010968435AE3D5108 /* Pods-DZViewControllerLifeCircleAction_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F57695D0BB558C79C65487C85415410 /* Sources */ = {
+		1029BD5B708F1D69E70E41A51FF897D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A7E7D97DD90D0352B38DBF3523CAD6D /* DZVCOnceLifeCircleAction.m in Sources */,
-				5576F80776A74AABB5C34155388973F2 /* DZViewControllerLifeCircleAction-dummy.m in Sources */,
-				E6F2B183E371C9CD6689A5FEA4D8D4B4 /* DZViewControllerLifeCircleBaseAction.m in Sources */,
-				D9167390B8F545F526B2516D98E78857 /* UIViewController+appearSwizzedBlock.m in Sources */,
+				AC311230EF9F2F7F8627C0D8039283EF /* DZVCOnceLifeCircleAction.m in Sources */,
+				87606E8A9BF58136E47EFBDB125F170E /* DZViewControllerLifeCircleAction-dummy.m in Sources */,
+				82C8F91BD7D523A338618E2F2D546811 /* DZViewControllerLifeCircleBaseAction.m in Sources */,
+				57A71749EF57D8A8B1FD7009AAEA2D76 /* UIViewController+appearSwizzedBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71353A794D8E4AF21D4BACE7EF8D4C80 /* Sources */ = {
+		337B70442938D9B03A2326D2F58F2965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D3DA791DE2D3A92688DDA956F43726 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m in Sources */,
+				CBA10F55C1912B8F727457B172698538 /* DZActivityBar-dummy.m in Sources */,
+				B8EA6FC0D922EC9E043912A4152FE8A2 /* DZActivityBarAppearAction.m in Sources */,
+				8DBBA52B399E88FE25DF1E6C76908234 /* DZActivityNavigationBar.m in Sources */,
+				3941D6DC90D83D02F63C533DA8DB1556 /* UIView+YHAttachment.m in Sources */,
+				3DC2CD29F963198D99F791B80E35BE66 /* UIViewController+ActivityNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34915D033D2A0164F1B75F2CA1E3C982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B3CCBD87BF42786DE265A5174DD518 /* NSString+URLEncode.m in Sources */,
+				94DCC410063C617EE3DD0C8AB90EA983 /* NSString-UrlEncode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A9A80DEBDBA33CB27F47C3CE1F025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0468CAB370863EFCD625FB3ABA9F079 /* Pods-DZViewControllerLifeCircleAction_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,18 +885,213 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD5F35725C5B85A2B6B7EDABE6B38C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E8A216EFD64319AB0DCD3060ECC42F /* DZRouteRequestContext.m in Sources */,
+				F381D3581C6381B35FF26B327965A3FB /* DZRouteResponseContext.m in Sources */,
+				CD5D8B0228D964A1C71BF9452809200C /* DZUIStackLifeCircleAction.m in Sources */,
+				54FBE270D6AE80B5E54E4FA96F23C0B3 /* DZURLContext.m in Sources */,
+				2E0D7AD7D26C42A882C765CDCF6EE1AD /* DZURLRoute-dummy.m in Sources */,
+				65A7620DB92A89FEF30F6FDAD9E49434 /* DZURLRoute.m in Sources */,
+				23D817AF4A2BB9EEF17E80577664FE5D /* DZURLRouteRecord.m in Sources */,
+				7FDF922188402C9553754664AA06E643 /* DZURLRouteRequest.m in Sources */,
+				269A757D4F39E8EC552340EBACDF0535 /* DZURLRouteResponse.m in Sources */,
+				4DD571F7D6C425E9C707D6B7AEB9439E /* DZURLRouteUtils.m in Sources */,
+				67514588B12D9BBEB0A5C38362A25890 /* DZURLWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DD1466453989BB8E285D8E6C821EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FB78F4E6A0883855467A3C0FEAAD41 /* DZDevices.m in Sources */,
+				1CB3076EB295EA49E30CD3997769643F /* DZGeometryTools-dummy.m in Sources */,
+				6BD33957321BA14D740630A1A876251D /* DZGeometryTools.m in Sources */,
+				6B5B316E7D8073C00A1C446CB4729689 /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E36A87193EFE1FF54585E5DDE5FEB2B7 /* PBXTargetDependency */ = {
+		1506FF4C7C25E2120F39580E4063D7DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZViewControllerLifeCircleAction;
-			target = AF22139C535C0B338C1076FAB2918584 /* DZViewControllerLifeCircleAction */;
-			targetProxy = 1C1AAEF653FFDFBFD8EFBAC2C5D6B8A6 /* PBXContainerItemProxy */;
+			target = F7116DBA58864BB0E505FEA07578DBA0 /* DZViewControllerLifeCircleAction */;
+			targetProxy = 842F9BE603C0E731C9D310E4E267AA07 /* PBXContainerItemProxy */;
+		};
+		1B7736CC80AE161FF504AD0971469DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString-UrlEncode";
+			target = D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */;
+			targetProxy = 743F828B621F7F2071E9D4EFE615640F /* PBXContainerItemProxy */;
+		};
+		2DE743FE3DDB703EC3969E80F4F0EE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZViewControllerLifeCircleAction;
+			target = F7116DBA58864BB0E505FEA07578DBA0 /* DZViewControllerLifeCircleAction */;
+			targetProxy = B6A37904D2C051B895B895FE7E1B069C /* PBXContainerItemProxy */;
+		};
+		6253502A7B159EC051C64653C6DD46B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZURLRoute;
+			target = 13581EB5D88FFD8F439B0F96BB4291DC /* DZURLRoute */;
+			targetProxy = 18111989B03A64349EB4E38638E35F8A /* PBXContainerItemProxy */;
+		};
+		68DDACBF7CA774BB57AD483F4A4CD9EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZActivityBar;
+			target = 20B365E6EA6232E50136D892E10CC005 /* DZActivityBar */;
+			targetProxy = 219A9FF90A34565334A897958D188CAC /* PBXContainerItemProxy */;
+		};
+		8875927FAF6FC0171C9D359A616DF098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZGeometryTools;
+			target = A64493A1645F26BCF59BA3AE373DC2CB /* DZGeometryTools */;
+			targetProxy = 476E0C618231CF54558202256D425FD7 /* PBXContainerItemProxy */;
+		};
+		AADEC04D308C0C2C03D2EF8EDA15D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString-UrlEncode";
+			target = D3DB2D9F75F2815AD2D51DCAE0242C43 /* NSString-UrlEncode */;
+			targetProxy = 01AF29036713544E2AC74ADA8A674DFB /* PBXContainerItemProxy */;
+		};
+		D72562E1F3DA8A8619EED8CB7B9BFD96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZViewControllerLifeCircleAction;
+			target = F7116DBA58864BB0E505FEA07578DBA0 /* DZViewControllerLifeCircleAction */;
+			targetProxy = D0B3C2B3B5CD3D1AE40B11200FA5217A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		034D20B760CFC4CE5456CFDE94E382DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DC1F92C2525DAE19ACC9C8AB24C026 /* DZGeometryTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZGeometryTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZGeometryTools/DZGeometryTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		263FFC8279139B16703FA36715FB9E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A8B4D794D0BD7FDE2973BE82609BF4 /* DZViewControllerLifeCircleAction.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZViewControllerLifeCircleAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZViewControllerLifeCircleAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		342A2DAB450B0B3776178DECC7F81068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401C5D43200C58077AF96683DAC292B4 /* NSString-UrlEncode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSString_UrlEncode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35FF616E6AFB9F6E25D5E50B55DF0787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401C5D43200C58077AF96683DAC292B4 /* NSString-UrlEncode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-UrlEncode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-UrlEncode/NSString-UrlEncode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSString_UrlEncode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		38B5DBC3641C16B31134082C481BB1E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7F5EC18B7FEE2CA2E20FB1F9350DFC7 /* Pods-DZViewControllerLifeCircleAction_Tests.debug.xcconfig */;
@@ -431,9 +1127,9 @@
 			};
 			name = Debug;
 		};
-		5013E4E7D317A6CD83F0C0D6E3CB2903 /* Release */ = {
+		39A21E8B52270AB6E62B843787BA1BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3DBDE58D4B6286B5E192CBD9BC251D /* Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig */;
+			baseConfigurationReference = 87DC1F92C2525DAE19ACC9C8AB24C026 /* DZGeometryTools.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -446,18 +1142,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZGeometryTools/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Pods-DZViewControllerLifeCircleAction_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DZGeometryTools/DZGeometryTools.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DZViewControllerLifeCircleAction_Example;
+				PRODUCT_NAME = DZGeometryTools;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +1158,38 @@
 			};
 			name = Release;
 		};
-		58FA55D18852A81A432FAF8E6C2F5972 /* Debug */ = {
+		47E3F2C73ED5A225D37F0258615A1BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D5045AB072D14140959476779CD061 /* DZURLRoute.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZURLRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B27D6476ACDBA96AE297B1D11E668E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69A8B4D794D0BD7FDE2973BE82609BF4 /* DZViewControllerLifeCircleAction.xcconfig */;
 			buildSettings = {
@@ -489,6 +1212,37 @@
 				MODULEMAP_FILE = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DZViewControllerLifeCircleAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73DA3B17144DB691A8EF55A05B802165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2443C40D66CB0F5E70E8577B7CF1BA8 /* DZActivityBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZActivityBar/DZActivityBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZActivityBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZActivityBar/DZActivityBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZActivityBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,6 +1291,37 @@
 			};
 			name = Release;
 		};
+		8E4F934DCA3D29053DD29B9625164C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D5045AB072D14140959476779CD061 /* DZURLRoute.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZURLRoute/DZURLRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZURLRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZURLRoute/DZURLRoute.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZURLRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		917E40A1326E4E3E18C14419C1EFD5B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80276D641D733860457A4145CA2D716E /* Pods-DZViewControllerLifeCircleAction_Tests.release.xcconfig */;
@@ -571,41 +1356,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9A98F28EDE33D636255F59E762E70600 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CF39D6199F4FE13D474B6E657DC9FFB /* Pods-DZViewControllerLifeCircleAction_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Pods-DZViewControllerLifeCircleAction_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DZViewControllerLifeCircleAction_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -651,9 +1401,44 @@
 			};
 			name = Debug;
 		};
-		AF54BEEDC3C8489F72123AEE11778201 /* Release */ = {
+		A808B14949165E5C9D2DAE0DA884EFC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A8B4D794D0BD7FDE2973BE82609BF4 /* DZViewControllerLifeCircleAction.xcconfig */;
+			baseConfigurationReference = 8CF39D6199F4FE13D474B6E657DC9FFB /* Pods-DZViewControllerLifeCircleAction_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Pods-DZViewControllerLifeCircleAction_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZViewControllerLifeCircleAction_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF5FB836DF56723F053468566E5FD3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2443C40D66CB0F5E70E8577B7CF1BA8 /* DZActivityBar.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,14 +1451,49 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZViewControllerLifeCircleAction/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DZActivityBar/DZActivityBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZActivityBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZViewControllerLifeCircleAction/DZViewControllerLifeCircleAction.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DZActivityBar/DZActivityBar.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DZViewControllerLifeCircleAction;
+				PRODUCT_NAME = DZActivityBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEAC3A7137273944955CCCF8A25D2B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3DBDE58D4B6286B5E192CBD9BC251D /* Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Pods-DZViewControllerLifeCircleAction_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZViewControllerLifeCircleAction_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,20 +1514,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9542225318A72A0D8C7A1C2C0A5CB82 /* Build configuration list for PBXNativeTarget "Pods-DZViewControllerLifeCircleAction_Example" */ = {
+		75634FCF0168AB29FC32312B6914F1F4 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A98F28EDE33D636255F59E762E70600 /* Debug */,
-				5013E4E7D317A6CD83F0C0D6E3CB2903 /* Release */,
+				55B27D6476ACDBA96AE297B1D11E668E /* Debug */,
+				263FFC8279139B16703FA36715FB9E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4A97251666080EF3E021865D932F3A2 /* Build configuration list for PBXNativeTarget "DZViewControllerLifeCircleAction" */ = {
+		7F7AC9D737DC704C65D4792DB8AB1EAC /* Build configuration list for PBXNativeTarget "NSString-UrlEncode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58FA55D18852A81A432FAF8E6C2F5972 /* Debug */,
-				AF54BEEDC3C8489F72123AEE11778201 /* Release */,
+				342A2DAB450B0B3776178DECC7F81068 /* Debug */,
+				35FF616E6AFB9F6E25D5E50B55DF0787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895E908636A1F6DF38326FD450276A72 /* Build configuration list for PBXNativeTarget "Pods-DZViewControllerLifeCircleAction_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A808B14949165E5C9D2DAE0DA884EFC3 /* Debug */,
+				CEAC3A7137273944955CCCF8A25D2B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94679C3517EC53FD9FCB620AC87163FA /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034D20B760CFC4CE5456CFDE94E382DF /* Debug */,
+				39A21E8B52270AB6E62B843787BA1BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -717,6 +1555,24 @@
 			buildConfigurations = (
 				38B5DBC3641C16B31134082C481BB1E5 /* Debug */,
 				917E40A1326E4E3E18C14419C1EFD5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FC527C2824255DAE2B20AF355C5EF4 /* Build configuration list for PBXNativeTarget "DZActivityBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DA3B17144DB691A8EF55A05B802165 /* Debug */,
+				BF5FB836DF56723F053468566E5FD3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA009757C218A6D7E917DBE770CD1B57 /* Build configuration list for PBXNativeTarget "DZURLRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E3F2C73ED5A225D37F0258615A1BD1 /* Debug */,
+				8E4F934DCA3D29053DD29B9625164C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

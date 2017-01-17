@@ -1,7 +1,17 @@
 PODS:
-  - DZViewControllerLifeCircleAction (0.1.0)
+  - DZActivityBar (0.1.0):
+    - DZViewControllerLifeCircleAction
+  - DZGeometryTools (1.1.7)
+  - DZURLRoute (0.2.1):
+    - DZViewControllerLifeCircleAction
+    - NSString-UrlEncode
+  - DZViewControllerLifeCircleAction (0.1.2)
+  - NSString-UrlEncode (2.1.0)
 
 DEPENDENCIES:
+  - DZActivityBar
+  - DZGeometryTools
+  - DZURLRoute
   - DZViewControllerLifeCircleAction (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +19,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DZViewControllerLifeCircleAction: 5ba58d04197572a82b6860797508ab10871e81c0
+  DZActivityBar: 26b2c3a9e702ae5872ae0da758c9be71a6d9e8bf
+  DZGeometryTools: cb233d721a9a6bddcc0b744b1fa3539354f66ae4
+  DZURLRoute: 982e9decf37c13e0857238eff9581b97b59bc3a6
+  DZViewControllerLifeCircleAction: d380d52914622c48f2b18bc919f885d2389b32c7
+  NSString-UrlEncode: 92dcb01cac33ef036cda76baf0e4378b18779e47
 
-PODFILE CHECKSUM: 10e97687272e9b71cadd316f94fc8ce0ede9ddd4
+PODFILE CHECKSUM: 3fc230e7cf6020cdcc8cd9681b2ab35ed8e41cd4
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0.rc.1

@@ -23,6 +23,10 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		996FD33F0884450CCF0E161E /* Pods_DZViewControllerLifeCircleAction_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ADA07DE8EE3637245ED7D2 /* Pods_DZViewControllerLifeCircleAction_Tests.framework */; };
 		E1008A051DCC778D00753FE5 /* DZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1008A041DCC778D00753FE5 /* DZSecondViewController.m */; };
+		E10DD8031E2DEB9000D8793C /* DZViewControllerRedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DD8021E2DEB9000D8793C /* DZViewControllerRedAction.m */; };
+		E10DD8061E2DEE2F00D8793C /* DZDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DD8051E2DEE2F00D8793C /* DZDemoViewController.m */; };
+		E10DD8091E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DD8081E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.m */; };
+		E10DD80C1E2DEF6700D8793C /* DZCenterButtonAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DD80B1E2DEF6700D8793C /* DZCenterButtonAction.m */; };
 		FA659E34E04534B86EB8C86A /* Pods_DZViewControllerLifeCircleAction_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC083254D9BA7CB9A912C72B /* Pods_DZViewControllerLifeCircleAction_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,14 @@
 		CF4684EE3806DCA26E5458EA /* Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZViewControllerLifeCircleAction_Example/Pods-DZViewControllerLifeCircleAction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1008A031DCC778D00753FE5 /* DZSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSecondViewController.h; sourceTree = "<group>"; };
 		E1008A041DCC778D00753FE5 /* DZSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSecondViewController.m; sourceTree = "<group>"; };
+		E10DD8011E2DEB9000D8793C /* DZViewControllerRedAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewControllerRedAction.h; sourceTree = "<group>"; };
+		E10DD8021E2DEB9000D8793C /* DZViewControllerRedAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewControllerRedAction.m; sourceTree = "<group>"; };
+		E10DD8041E2DEE2F00D8793C /* DZDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDemoViewController.h; sourceTree = "<group>"; };
+		E10DD8051E2DEE2F00D8793C /* DZDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDemoViewController.m; sourceTree = "<group>"; };
+		E10DD8071E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewControllerPrintAppearLifeAction.h; sourceTree = "<group>"; };
+		E10DD8081E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewControllerPrintAppearLifeAction.m; sourceTree = "<group>"; };
+		E10DD80A1E2DEF6700D8793C /* DZCenterButtonAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCenterButtonAction.h; sourceTree = "<group>"; };
+		E10DD80B1E2DEF6700D8793C /* DZCenterButtonAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCenterButtonAction.m; sourceTree = "<group>"; };
 		FC083254D9BA7CB9A912C72B /* Pods_DZViewControllerLifeCircleAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZViewControllerLifeCircleAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +150,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DZViewController.h */,
 				6003F5A6195388D20070C39A /* DZViewController.m */,
+				E10DD8041E2DEE2F00D8793C /* DZDemoViewController.h */,
+				E10DD8051E2DEE2F00D8793C /* DZDemoViewController.m */,
+				E10DD8011E2DEB9000D8793C /* DZViewControllerRedAction.h */,
+				E10DD8021E2DEB9000D8793C /* DZViewControllerRedAction.m */,
+				E10DD80A1E2DEF6700D8793C /* DZCenterButtonAction.h */,
+				E10DD80B1E2DEF6700D8793C /* DZCenterButtonAction.m */,
+				E10DD8071E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.h */,
+				E10DD8081E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 				E1008A031DCC778D00753FE5 /* DZSecondViewController.h */,
@@ -399,7 +419,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1008A051DCC778D00753FE5 /* DZSecondViewController.m in Sources */,
+				E10DD8061E2DEE2F00D8793C /* DZDemoViewController.m in Sources */,
+				E10DD80C1E2DEF6700D8793C /* DZCenterButtonAction.m in Sources */,
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
+				E10DD8031E2DEB9000D8793C /* DZViewControllerRedAction.m in Sources */,
+				E10DD8091E2DEE9E00D8793C /* DZViewControllerPrintAppearLifeAction.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D12105E2D424D67839C0B0453B626973"
+               BlueprintIdentifier = "489622CAD40116ABF6262D8937668398"
                BuildableName = "Pods_DZViewControllerLifeCircleAction_Example.framework"
                BlueprintName = "Pods-DZViewControllerLifeCircleAction_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D12105E2D424D67839C0B0453B626973"
+            BlueprintIdentifier = "489622CAD40116ABF6262D8937668398"
             BuildableName = "Pods_DZViewControllerLifeCircleAction_Example.framework"
             BlueprintName = "Pods-DZViewControllerLifeCircleAction_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

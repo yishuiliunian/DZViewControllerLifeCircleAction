@@ -1,0 +1,6 @@
+framework module DZActivityBar {
+  umbrella header "DZActivityBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

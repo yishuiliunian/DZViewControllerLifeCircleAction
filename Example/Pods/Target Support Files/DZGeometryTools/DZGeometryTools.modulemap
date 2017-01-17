@@ -1,0 +1,6 @@
+framework module DZGeometryTools {
+  umbrella header "DZGeometryTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

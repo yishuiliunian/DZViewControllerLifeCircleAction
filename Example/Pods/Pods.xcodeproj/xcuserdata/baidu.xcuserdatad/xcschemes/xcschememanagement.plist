@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DZActivityBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DZGeometryTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DZURLRoute.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZViewControllerLifeCircleAction.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NSString-UrlEncode.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AF22139C535C0B338C1076FAB2918584</key>
+		<key>13581EB5D88FFD8F439B0F96BB4291DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D12105E2D424D67839C0B0453B626973</key>
+		<key>20B365E6EA6232E50136D892E10CC005</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>489622CAD40116ABF6262D8937668398</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A64493A1645F26BCF59BA3AE373DC2CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3DB2D9F75F2815AD2D51DCAE0242C43</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DAF7F142C71B932010968435AE3D5108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7116DBA58864BB0E505FEA07578DBA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

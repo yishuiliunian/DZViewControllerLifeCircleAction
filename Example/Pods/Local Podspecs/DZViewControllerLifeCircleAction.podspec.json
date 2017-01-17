@@ -1,8 +1,8 @@
 {
   "name": "DZViewControllerLifeCircleAction",
-  "version": "0.1.0",
-  "summary": "A short description of DZViewControllerLifeCircleAction.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "DZViewControllerLifeCircleAction is an AOP toolkit for UIViewController.",
+  "description": "DZViewControllerLifeCircleAction is an AOP toolkit for UIViewController. When you want to insert some logic to UIViewController, this lib is fine for you.",
   "homepage": "https://github.com/yishuiliunian/DZViewControllerLifeCircleAction",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yishuiliunian/DZViewControllerLifeCircleAction.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

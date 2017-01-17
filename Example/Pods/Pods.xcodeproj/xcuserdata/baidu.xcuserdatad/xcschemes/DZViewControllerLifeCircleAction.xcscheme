@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AF22139C535C0B338C1076FAB2918584'
+               BlueprintIdentifier = 'F7116DBA58864BB0E505FEA07578DBA0'
                BlueprintName = 'DZViewControllerLifeCircleAction'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DZViewControllerLifeCircleAction.framework'>
