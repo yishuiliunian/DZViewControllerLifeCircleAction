@@ -18,6 +18,7 @@
     if (!_button) {
         _button = [UIButton new];
     }
+    CGRectDivide(<#CGRect rect#>, <#CGRect * _Nonnull slice#>, <#CGRect * _Nonnull remainder#>, <#CGFloat amount#>, <#CGRectEdge edge#>)
     return _button;
 }
 - (void) hostController:(UIViewController *)vc viewDidAppear:(BOOL)animated
