@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DZViewControllerLifeCircleAction'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'DZViewControllerLifeCircleAction is an AOP toolkit for UIViewController.'
 
 # This description is used to generate tags and improve search results.
